@@ -6,7 +6,7 @@
 	let { data }: PageProps = $props();
 </script>
 
-<Metadata title={data.meta.title + ' | Wiscaksono'} description={data.meta.description} />
+<Metadata title={data.meta.title + ' | Executeagi'} description={data.meta.description} />
 
 <article>
 	<data.content />
