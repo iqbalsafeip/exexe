@@ -1,10 +1,7 @@
 <script lang="ts">
-	import Metadata from '$lib/components/metadata.svelte';
-
-	import type { PageProps } from './$types';
-
-	let { data }: PageProps = $props();
+	export let data;
 </script>
-<article>
-	<data.content />
-</article>
+
+<div class="bg-black text-white min-h-screen font-mono p-6 overflow-x-auto">
+	<pre class="whitespace-pre-wrap leading-relaxed">{data.content}</pre>
+</div>
