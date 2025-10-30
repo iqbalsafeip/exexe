@@ -52,7 +52,7 @@
 					<circle cx="6" cy="18" r="3"></circle>
 					<path d="M18 9a9 9 0 0 1-9 9"></path>
 				</svg>
-				//
+				main
 			</a>
 		</div>
 		<p>-- VIEW --</p>
@@ -81,8 +81,8 @@
 				</li>
 			{/each}
 		</ul>
-		<div class="not-sr-only hidden items-center gap-2 lg:flex">
 
+		<div class="not-sr-only hidden items-center gap-2 lg:flex">
 			<a
 				class="bg-ash-300 shrink-0 px-2 py-0.5 leading-none text-black hover:bg-ash-200 transition-colors"
 				href="#"

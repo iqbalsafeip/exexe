@@ -1,6 +1,6 @@
 export const navbarMenu = [
 	{
-		title: '',
+		title: '//',
 		href: '/',
 		key: 'h'
 	}
