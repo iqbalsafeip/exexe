@@ -42,6 +42,7 @@
 		"vite": "^7.1.2"
 	},
 	"dependencies": {
+		"@anthropic-ai/sdk": "^0.68.0",
 		"@fontsource/commit-mono": "^5.2.5",
 		"arctic": "^3.7.0",
 		"drizzle-orm": "^0.44.4",

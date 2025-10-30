@@ -85,7 +85,7 @@
 		<div class="not-sr-only hidden items-center gap-2 lg:flex">
 			<a
 				class="bg-ash-300 shrink-0 px-2 py-0.5 leading-none text-black hover:bg-ash-200 transition-colors"
-				href="https://pump.fun/coin/Ct2id7R3KwV6TG3fS5hSXGL668y3dcJKpTkX2xUApump"
+				href="https://dexscreener.com/solana/cxrx36k3s6bgoivqsohyacwjmghix3khdfaap7xkmaxs"
 				target="_blank"
 				rel="noreferrer"
 			>
@@ -108,6 +108,7 @@
 			>
 				Telegram Community
 			</a>
+			
 		</div>
 	</div>
 </nav>
