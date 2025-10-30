@@ -82,14 +82,6 @@
 			{/each}
 		</ul>
 		<div class="not-sr-only hidden items-center gap-2 lg:flex">
-			<a
-				class="bg-ash-300 shrink-0 px-2 py-0.5 leading-none text-black hover:bg-ash-200 transition-colors"
-				href="#"
-				target="_blank"
-				rel="noreferrer"
-			>
-				Whitepaper
-			</a>
 
 			<a
 				class="bg-ash-300 shrink-0 px-2 py-0.5 leading-none text-black hover:bg-ash-200 transition-colors"
