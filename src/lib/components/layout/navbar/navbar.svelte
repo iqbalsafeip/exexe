@@ -89,7 +89,7 @@
 				target="_blank"
 				rel="noreferrer"
 			>
-				Pumpfun
+				$EXCE
 			</a>
 
 			<a
@@ -99,6 +99,14 @@
 				rel="noreferrer"
 			>
 				X
+			</a>
+			<a
+				class="bg-ash-300 shrink-0 px-2 py-0.5 leading-none text-black hover:bg-ash-200 transition-colors"
+				href="https://t.me/executecommunity"
+				target="_blank"
+				rel="noreferrer"
+			>
+				Telegram Community
 			</a>
 		</div>
 	</div>
