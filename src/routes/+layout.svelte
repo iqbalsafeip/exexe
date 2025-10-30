@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { MediaQuery } from 'svelte/reactivity';
-	import { PUBLIC_UMAMI_TRACKING_ID } from '$env/static/public';
 
 	import '../app.css';
 	import { dev } from '$app/environment';
@@ -36,11 +35,9 @@
 		const controller = new AbortController();
 
 		const handleMouseUp = () => (dragging = false);
-
 		const handleMouseMove = (e: MouseEvent) => {
 			if (dragging) position = { x: e.clientX - offset.x, y: e.clientY - offset.y };
 		};
-
 		const handleFullscreenChange = () => {
 			if (!document.fullscreenElement) isFullscreen = false;
 		};
@@ -54,16 +51,9 @@
 
 	$effect(() => {
 		if (!isMobile) return;
-
 		position = { x: 0, y: 0 };
 	});
 </script>
-
-<svelte:head>
-	{#if !dev}
-		<script defer src="https://umami.wiscaksono.com/script.js" data-website-id={PUBLIC_UMAMI_TRACKING_ID}></script>
-	{/if}
-</svelte:head>
 
 <main
 	bind:this={containerElement}
@@ -87,7 +77,8 @@
 <style>
 	.grid-pattern {
 		background-image:
-			linear-gradient(to right, var(--color-ash-500) 2px, transparent 2px), linear-gradient(to bottom, var(--color-ash-500) 2px, transparent 2px);
+			linear-gradient(to right, var(--color-ash-500) 2px, transparent 2px),
+			linear-gradient(to bottom, var(--color-ash-500) 2px, transparent 2px);
 		background-size: 5vh 5vh;
 		background-position: center;
 		opacity: 0.2;
@@ -104,8 +95,7 @@
 	}
 
 	@keyframes animate-wave-shadow {
-		0%,
-		100% {
+		0%, 100% {
 			box-shadow:
 				0px 0px 0px 1px rgba(165, 165, 165, 0.04),
 				-9px 9px 9px -0.5px rgba(0, 0, 0, 0.04),
@@ -144,22 +134,13 @@
 	}
 
 	@keyframes animate-grain {
-		0%,
-		100% {
+		0%, 100% {
 			transform: translate(0);
 		}
-		10%,
-		30%,
-		50%,
-		70%,
-		90% {
+		10%, 30%, 50%, 70%, 90% {
 			transform: translate(-5%, -10%);
 		}
-		20%,
-		40%,
-		60%,
-		80%,
-		100% {
+		20%, 40%, 60%, 80%, 100% {
 			transform: translate(-15%, -20%);
 		}
 	}
