@@ -6,11 +6,11 @@
 </script>
 
 <Metadata
-	title="Articles | Wiscaksono"
+	title="Executagi"
 	description="Discover the latest articles, delve into the world of technology, and explore the latest trends in the tech industry. Stay up-to-date with the latest news, and immerse yourself in the world of technology."
 />
 
-<h1 class="sr-only">Wisnu Wicaksono's Articles</h1>
+<h1 class="sr-only">/</h1>
 
 <div class="grid gap-2 lg:grid-cols-2">
 	{#each data.articles as article, i (i)}

@@ -3,24 +3,22 @@
 </script>
 
 <Metadata
-	title="Wiscaksono"
-	description="Get to know me, Wisnu Wicaksono, through this website! I'm a passionate frontend developer and electrical engineering student, and I've poured my skills and creativity into building this site with Next.js and Tailwind CSS. Explore my interactive projects, clean portfolio, and a glimpse into my technical expertise. If you're seeking a talented developer for your next project or simply looking for inspiration, feel free to get in touch!"
+	title="Execute"
+	description="interface between AGI and Humans, Learning, Dreaming and reasoning at will with technology. "
 />
 
 <section class="flex flex-grow flex-col items-center justify-center space-y-2.5 md:space-y-5">
-	<code class="block text-[2dvw] leading-[0.9] tracking-[-0.1em] whitespace-pre-wrap lg:text-[1.4dvh]">
-		{`___ __ _______________________________________________________________
-7  V  V  77  77     77     77  _  77  7  77     77     77     77     7
-|  |  |  ||  ||  ___!|  ___!|  _  ||   __!|  ___!|  7  ||  _  ||  7  |
-|  !  !  ||  |!__   7|  7___|  7  ||     |!__   7|  |  ||  7  ||  |  |
-|        ||  |7     ||     7|  |  ||  7  |7     ||  !  ||  |  ||  !  |
-!________!!__!!_____!!_____!!__!__!!__!__!!_____!!_____!!__!__!!_____!`}
+	<code class="block text-[4vw] leading-[0.9] tracking-[-0.1em] whitespace-pre-wrap lg:text-[3vh]">
+		{`____ _  _ ____ ____ _  _ ___ ____ ____ ____ _
+|___  \/  |___ |    |  |  |  |___ |__| | __ |
+|___ _/\_ |___ |___ |__|  |  |___ |  | |__] |`}
 	</code>
 
-	<p class="sr-only">Wisnu Wicaksono</p>
-
-	<div class="text-center">
+	
+	<div class="text-center font-roboto text-xs md:text-sm text-neutral-400 space-y-1">
+		
 		<p>Self taught web developer</p>
-		<p>love to learn new things and I&apos;m always looking for new challenges to solve :)</p>
+		<p>Love to learn new things and I&apos;m always looking for new challenges to solve :)</p>
+		<p>Hello</p>
 	</div>
 </section>
