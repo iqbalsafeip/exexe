@@ -15,8 +15,9 @@
 	</code>
 
 	<div class="font-roboto text-xs md:text-sm text-neutral-400 space-y-2">
-		<p>Self taught web developer</p>
-		<p>Love to learn new things and I&apos;m always looking for new challenges to solve :)</p>
-		<p>Hello</p>
+		<p>Executeagi is a full ASCII art Interface connected to the most advanced LLM ever and a little touch of AGI technology in it.</p>
+		<p>
+This window is still under construction, support us by being part of the people who support $EXCE.</p>
+		<p>----------</p>
 	</div>
 </section>
