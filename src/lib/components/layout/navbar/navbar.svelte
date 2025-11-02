@@ -108,6 +108,14 @@
 			>
 				Telegram Community
 			</a>
+			<a
+				class="bg-ash-300 shrink-0 px-2 py-0.5 leading-none text-black hover:bg-ash-200 transition-colors"
+				href="https://universal.backrooms.exeagi.xyz/"
+				target="_blank"
+				rel="noreferrer"
+			>
+				Universal Backrooms
+			</a>
 			
 		</div>
 	</div>
