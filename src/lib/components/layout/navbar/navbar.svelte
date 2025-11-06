@@ -34,7 +34,7 @@
 	<div class="hidden items-center justify-between gap-2 px-2 lg:flex lg:px-0">
 		<div class="flex items-center gap-2">
 			<div class="bg-ash-200 h-4 w-1.5"></div>
-			<a class="flex items-center" href="#" target="_blank" rel="norreferrer">
+			<div class="flex items-center"   rel="norreferrer">
 				<svg
 					class="mr-1 h-3 w-3"
 					xmlns="http://www.w3.org/2000/svg"
@@ -53,7 +53,7 @@
 					<path d="M18 9a9 9 0 0 1-9 9"></path>
 				</svg>
 				//
-			</a>
+			</div>
 		</div>
 		<p>-- VIEW --</p>
 	</div>
@@ -82,44 +82,13 @@
 			{/each}
 		</ul>
 
-		<div class="not-sr-only hidden items-center gap-2 lg:flex">
-			<a
-				class="bg-ash-300 shrink-0 px-2 py-0.5 leading-none text-black hover:bg-ash-200 transition-colors"
-				href="https://dexscreener.com/solana/cxrx36k3s6bgoivqsohyacwjmghix3khdfaap7xkmaxs"
-				target="_blank"
-				rel="noreferrer"
-			>
-				$EXCE
-			</a>
+		<div class="flex flex-wrap items-center justify-center gap-2 p-2">
+	
 
-			<a
-				class="bg-ash-300 shrink-0 px-2 py-0.5 leading-none text-black hover:bg-ash-200 transition-colors"
-				href="https://x.com/executeagi"
-				target="_blank"
-				rel="noreferrer"
-			>
-				X
-			</a>
-			<a
-				class="bg-ash-300 shrink-0 px-2 py-0.5 leading-none text-black hover:bg-ash-200 transition-colors"
-				href="https://t.me/executecommunity"
-				target="_blank"
-				rel="noreferrer"
-			>
-				Telegram Community
-			</a>
-			<a
-				class="bg-ash-300 shrink-0 px-2 py-0.5 leading-none text-black hover:bg-ash-200 transition-colors"
-				href="https://universal.backrooms.exeagi.xyz/"
-				target="_blank"
-				rel="noreferrer"
-			>
-				Universal Backrooms
-			</a>
-			
-		</div>
+	
+</div>
+
 	</div>
 </nav>
-
 
 <!-- dev BRB -->

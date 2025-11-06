@@ -1,5 +1,6 @@
 <script lang="ts">
-	import Face from './face.svelte';
+	import Navbar from '../navbar/navbar.svelte';
+import Face from './face.svelte';
 
 	interface $$Props {
 		isFullscreen: boolean;
@@ -36,6 +37,6 @@
 		</button>
 	</div>
 	<p class="not-sr-only mx-auto hidden font-semibold select-none lg:block"></p>
-	<p class="not-sr-only mx-auto block font-semibold select-none lg:hidden"> //..Use Dekstop Mode..//</p>
+	<!-- <p class="not-sr-only mx-auto block font-semibold select-none lg:hidden"> //..Use Dekstop Mode..//</p> -->
 	<Face />
 </header>

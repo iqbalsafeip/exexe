@@ -3,6 +3,7 @@
 
 	import { navbarMenu } from './navbar-menu';
 
+	
 	const handleKeydown = (e: KeyboardEvent) => {
 		const target = e.target as HTMLElement;
 		if (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.isContentEditable) return;

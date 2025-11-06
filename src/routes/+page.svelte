@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Cabutton from '$lib/components/cabutton.svelte';
 	import Metadata from '$lib/components/metadata.svelte';
 </script>
 
@@ -19,5 +20,6 @@
 		<p>
 This window is still under construction, support us by being part of the people who support $EXCE.</p>
 		<p>----------</p>
+		<Cabutton />
 	</div>
 </section>
